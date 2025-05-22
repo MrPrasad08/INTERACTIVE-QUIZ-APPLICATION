@@ -1,0 +1,59 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background: linear-gradient(skyblue, white, blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quiz-box {
+  background: linear-gradient(white, black);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 5px 8px 5px grey;
+  width: 400px;
+  text-align: center;
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+button {
+  font-family:'Times New Roman', Times, serif;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-grid :hover{
+  background-color: orange;
+  transition: ease-in-out 0.5s;
+}
+.next-btn {
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: grey 0.3s ease-in-out;
+}
+.next-btn:hover{
+  background-color:aqua
+}
+.correct {
+  background-color: #4CAF50;
+  color: white;
+}
+.wrong {
+  background-color: #f44336;
+  color: white;
+}
+.secret {
+  display: none;
+}
+.R-btn{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.R-btn:hover{
+  background-color: green;
+}
